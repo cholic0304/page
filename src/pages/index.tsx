@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col, Layout, Menu, Icon } from 'antd'
 import { connect } from 'redux-zero-x'
-import './index.css'
+import './index.less'
 
 const { Header, Sider, Content } = Layout
 const SubMenu = Menu.SubMenu
@@ -10,12 +10,6 @@ const SubMenu = Menu.SubMenu
 export default class App extends React.Component<any, any> {
 
   render () {
-    const menuList = [
-      {
-        url: 'home',
-        name: 'home',
-      }
-    ]
     return (
       <Layout id={'view-container'}>
         <Content>
